@@ -1,0 +1,14 @@
+{
+  "purpose": "Experimental prototype candidate; not validated for local roads or cleared for production deployment",
+  "repository": "seanjudelyons/yolov8n-pothole-segmentation-onnx",
+  "revision": "aa630844c912ea9ce6e5b3e833ea26783b1239f2",
+  "file": "onnx/model.onnx",
+  "local_file": "pothole-research.onnx",
+  "sha256": "5d17fb2c878825ca97e6ebd09601a43251ce77820565c91cb0bfb76e793f308d",
+  "labels": ["pothole"],
+  "input": [1, 3, 640, 640],
+  "outputs": [[1, 37, 8400], [1, 32, 160, 160]],
+  "model_card": "Not provided by the ONNX publisher",
+  "license": "Not specified by the ONNX publisher; clarify provenance and permitted use before redistribution or public deployment",
+  "validation": "Runtime smoke testing only. Publisher metrics are not RoadProof validation."
+}

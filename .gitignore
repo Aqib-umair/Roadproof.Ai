@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.streamlit/secrets.toml
+data/
+*.log
+test-results/
+models/*.onnx
+models/*.pt
+models/*.partial
+tmp/
